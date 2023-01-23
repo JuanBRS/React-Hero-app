@@ -1,7 +1,7 @@
 import React from "react";
 import { getHeroesbyPublisher } from "../helpers";
 import { HeroCard } from "./HeroCard";
-import {AAA} from "./AAA"
+
 
 export const HeroList = ({ publisher }) => {
   const heroes = getHeroesbyPublisher(publisher);

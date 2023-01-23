@@ -10,6 +10,8 @@ export const HeroCard = ({
 }) => {
   const heroImageUrl = `/assets/heroes/${id}.jpg`;
 
+  
+
   return (
     <div className="col">
       <div className="card">
@@ -28,7 +30,10 @@ export const HeroCard = ({
                 <small className="text-muted"> {first_appearance}</small>
               </p>
 
-              {/* <Link to={`/hero/${hero.id}`}>mas...</Link> */}
+      <Link to={`/hero/${ id }`} >
+       mas...
+      
+      </Link>
             </div>
           </div>
         </div>
