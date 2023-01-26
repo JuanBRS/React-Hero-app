@@ -42,6 +42,15 @@ replace: true
           >
             DC
           </NavLink>
+
+          <NavLink
+            className={({ isActive }) =>
+              `nav-item nav-link $ { isActive ? 'active':''}`
+            }
+            to="/Search"
+          >
+            Search
+          </NavLink>
         </div>
       </div>
 
